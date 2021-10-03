@@ -3,9 +3,6 @@ import fizzbuzz
 def test_one():
     assert fizzbuzz.fizz_buzz(1) == 1, "Should be 1"
 
-def test_always_fail():
-    assert True == False
-
 def test_three():
     assert fizzbuzz.fizz_buzz(3) == "Fizz", "Should be Fizz"
 
